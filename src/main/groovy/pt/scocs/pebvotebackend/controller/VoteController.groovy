@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest
 @RestController
 @CrossOrigin(origins = "*")
 @RequestMapping("/api")
-public class NoteController {
+public class VoteController {
 
     @Autowired
     VoteRepository voteRepository;
